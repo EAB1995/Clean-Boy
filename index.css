@@ -1,0 +1,36 @@
+
+html {
+    background: url(./images/bg_bordered_landscape_5.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 1080;
+    width: 1920;
+    position: relative;
+    align-content: center;
+}
+
+h1 {
+    font-family: 'Palette Mosaic';
+    text-align: center;
+    font-size: x-large;
+    color: beige;
+}
+
+.pw_button {
+    box-sizing: border-box;
+    position: absolute;
+    height: 100px;
+    width: 800px;
+    top: 450px;
+    left: 560px;
+    background-image: URL(./images/pw_button_2.png);
+    border: none;
+
+}
